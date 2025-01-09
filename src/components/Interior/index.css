@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.interior-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0px #00000014;
+    background-color: #D3D3D3;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .interior-heading {
+    font-family: Poppins, serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #030303;
+  }
+  
+  .interior-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .interior-description {
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .interior-image {
+    width: 700px;
+    height: auto;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+
+  .slider-container {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+
+  .interior-carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .interior-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 18px;
+    color: black;
+    z-index: 1;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: black;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 24px;
+    color: black;
+  }
+  
+  .slick-prev:focus,
+  .slick-next:focus {
+    outline: none;
+  }
+  
+  .slick-prev:before {
+    content: '\003C';
+    color: black;
+  }
+  
+  .slick-next:before {
+    content: '\003E';
+    color: black;
+  }
+  
+
+  @media (max-width: 768px) {
+    .interior-heading {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  
+    .interior-description {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .interior-image {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  
+    .slider-container {
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .interior-heading {
+      font-size: 28px;
+      line-height: 42px;
+    }
+  
+    .interior-description {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  
+    .interior-image {
+      width: 80%;
+      height: auto;
+    }
+  
+    .slider-container {
+      padding: 20px;
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .interior-heading {
+      font-size: 32px;
+      line-height: 48px;
+    }
+  
+    .interior-description {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .interior-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .slider-container {
+      padding: 20px;
+    }
+  }
+  

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.about-us-heading{
+    width: 147px;
+    height: 48px;
+    top: 3272.5px;
+    left: 640px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#030303;
+
+}
+.about-section{
+    margin-top: 20px;
+}
+.about-us-description{
+    text-align: center;
+    font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.values-and-images-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+
+}
+.values-container{
+    width: 60%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.value-title{
+    width: 240px;
+    height: 48px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    
+    color:#030303;
+
+}
+.value-description{
+    width: 293px;
+    height: 96px;
+   
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    
+   
+
+}
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 5px;
+  }
+  
+  .images-container img {
+    width: 60%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .images-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  }
